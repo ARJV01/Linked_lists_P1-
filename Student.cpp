@@ -4,13 +4,13 @@
 
 using namespace std;
 
-Student :: Student(char* firstName, char* lastName, int newId, float newGPA) {
+Student :: Student(char* initfirstName, char* initlastName, int newId, float newGPA) {
   firstName = new char[80];
-  strcpy(firstName, firstName);
+  strcpy(firstName, initfirstName);
   lastName = new char[80];
-  strcpy(lastName, lastName);
-  int id = newId;
-  float GPA = newGPA;
+  strcpy(lastName, initlastName);
+  id = newId;
+  GPA = newGPA;
 
 }
 

@@ -8,7 +8,7 @@ using namespace std;
 
 class Student {
 public:
-  Student(char* firstName, char* lastName, int newId, float newGPA);
+  Student(char* initfirstName, char* initlastName, int newId, float newGPA);
   char* getFirstName();
   char* getLastName();
   int getId();
